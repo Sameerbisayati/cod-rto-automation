@@ -1,0 +1,406 @@
+[
+    {
+        "order_id": "NEW1793629291011",
+        "customer_name": "Rahul Sharma",
+        "order_value": 2500,
+        "risk_score": 50,
+        "action": "WHATSAPP_CONFIRMATION",
+        "explanation": "Moderate risk. Confirm customer intent through WhatsApp.",
+        "reasons": [
+            "Baseline risk allowance based on historical COD returns.",
+            "Customer has 1 previous RTO.",
+            "Customer has 3 previous orders.",
+            "High-value order increases potential RTO exposure.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "SUCCESS",
+        "gemini_time_ms": 1308.66,
+        "evaluated_at": "2026-11-02T14:21:32.328817+00:00"
+    },
+    {
+        "order_id": "NEW1793629181505",
+        "customer_name": "asfdt123",
+        "order_value": 2500,
+        "risk_score": 100,
+        "action": "HOLD_REVIEW",
+        "explanation": "Very high risk. Hold the order for manual review before deciding whether to cancel.",
+        "reasons": [
+            "Baseline risk allowance based on historical COD returns.",
+            "Customer has 2 previous RTOs.",
+            "First-time customer; no delivery history.",
+            "High-value order increases potential RTO exposure.",
+            "No house or building number found. Address is very short.",
+            "AI assessment found the customer name suspicious.",
+            "AI assessment found the delivery address incomplete."
+        ],
+        "ai_status": "SUCCESS",
+        "gemini_time_ms": 2244.84,
+        "evaluated_at": "2026-11-02T14:19:43.769429+00:00"
+    },
+    {
+        "order_id": "NEW1793621476386",
+        "customer_name": "Rahul Sharma",
+        "order_value": 400,
+        "risk_score": 10,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "Baseline risk allowance based on historical COD returns.",
+            "No previous RTO recorded.",
+            "Customer has 5 previous orders.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "SUCCESS",
+        "gemini_time_ms": 48164.52,
+        "evaluated_at": "2026-11-02T12:12:04.633407+00:00"
+    },
+    {
+        "order_id": "NEW1793621329584",
+        "customer_name": "Rahul Sharma",
+        "order_value": 400,
+        "risk_score": 0,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 5 previous orders.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 30245.59,
+        "evaluated_at": "2026-11-02T12:09:19.950941+00:00"
+    },
+    {
+        "order_id": "NEW1793621225719",
+        "customer_name": "Rahul Sharma",
+        "order_value": 400,
+        "risk_score": 0,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 5 previous orders.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 16376.73,
+        "evaluated_at": "2026-11-02T12:07:23.633170+00:00"
+    },
+    {
+        "order_id": "NEW1793621098481",
+        "customer_name": "Rahul Sharma",
+        "order_value": 400,
+        "risk_score": 0,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 5 previous orders.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 30437.18,
+        "evaluated_at": "2026-11-02T12:05:29.213249+00:00"
+    },
+    {
+        "order_id": "NEW1793620976113",
+        "customer_name": "Rahul Sharma",
+        "order_value": 400,
+        "risk_score": 0,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 5 previous orders.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 835.16,
+        "evaluated_at": "2026-11-02T12:02:57.171777+00:00"
+    },
+    {
+        "order_id": "NEW1793618579918",
+        "customer_name": "Rahul Sharma",
+        "order_value": 649,
+        "risk_score": 0,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 2 previous orders.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 768.93,
+        "evaluated_at": "2026-11-02T11:23:00.705411+00:00"
+    },
+    {
+        "order_id": "NEW1793618568118",
+        "customer_name": "Rahul Sharma",
+        "order_value": 649,
+        "risk_score": 0,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 2 previous orders.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 920.18,
+        "evaluated_at": "2026-11-02T11:22:49.147194+00:00"
+    },
+    {
+        "order_id": "NEW1793618233368",
+        "customer_name": "Rahul Sharma",
+        "order_value": 700,
+        "risk_score": 30,
+        "action": "WHATSAPP_CONFIRMATION",
+        "explanation": "Moderate risk. Confirm customer intent through WhatsApp.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 4 previous orders.",
+            "No house or building number found. Address is very short."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 120017.46,
+        "evaluated_at": "2026-11-02T11:19:13.424168+00:00"
+    },
+    {
+        "order_id": "NEW1793565711322",
+        "customer_name": "Rahul Sharma",
+        "order_value": 3999,
+        "risk_score": 75,
+        "action": "PREPAID_NUDGE",
+        "explanation": "Elevated risk. Offer a prepaid payment incentive.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "First-time customer; no delivery history.",
+            "High-value order increases potential RTO exposure.",
+            "No house or building number found. Address is very short.",
+            "AI assessment found the delivery address incomplete."
+        ],
+        "ai_status": "SUCCESS",
+        "gemini_time_ms": 58719.15,
+        "evaluated_at": "2026-11-01T20:42:50.072876+00:00"
+    },
+    {
+        "order_id": "NEW1793565537383",
+        "customer_name": "asfdt123",
+        "order_value": 3999,
+        "risk_score": 50,
+        "action": "WHATSAPP_CONFIRMATION",
+        "explanation": "Moderate risk. Confirm customer intent through WhatsApp.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "First-time customer; no delivery history.",
+            "High-value order increases potential RTO exposure.",
+            "Address appears reasonably detailed.",
+            "AI assessment found the customer name suspicious."
+        ],
+        "ai_status": "SUCCESS",
+        "gemini_time_ms": 115562.21,
+        "evaluated_at": "2026-11-01T20:40:52.989373+00:00"
+    },
+    {
+        "order_id": "NEW1793565411868",
+        "customer_name": "Rahul Sharma",
+        "order_value": 3999,
+        "risk_score": 30,
+        "action": "WHATSAPP_CONFIRMATION",
+        "explanation": "Moderate risk. Confirm customer intent through WhatsApp.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "First-time customer; no delivery history.",
+            "High-value order increases potential RTO exposure.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "SUCCESS",
+        "gemini_time_ms": 84959.49,
+        "evaluated_at": "2026-11-01T20:38:16.864716+00:00"
+    },
+    {
+        "order_id": "NEW1793565240686",
+        "customer_name": "Rahul Sharma",
+        "order_value": 3999,
+        "risk_score": 35,
+        "action": "WHATSAPP_CONFIRMATION",
+        "explanation": "Moderate risk. Confirm customer intent through WhatsApp.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "First-time customer; no delivery history.",
+            "High-value order increases potential RTO exposure.",
+            "Address appears reasonably detailed.",
+            "AI assessment found that the address may need clarification."
+        ],
+        "ai_status": "SUCCESS",
+        "gemini_time_ms": 92943.36,
+        "evaluated_at": "2026-11-01T20:35:33.719654+00:00"
+    },
+    {
+        "order_id": "NEW1793565194450",
+        "customer_name": "Rahul Sharma",
+        "order_value": 3999,
+        "risk_score": 30,
+        "action": "WHATSAPP_CONFIRMATION",
+        "explanation": "Moderate risk. Confirm customer intent through WhatsApp.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "First-time customer; no delivery history.",
+            "High-value order increases potential RTO exposure.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 3464.97,
+        "evaluated_at": "2026-11-01T20:33:18.253909+00:00"
+    },
+    {
+        "order_id": "NEW1793564883821",
+        "customer_name": "Rahul Sharma",
+        "order_value": 990,
+        "risk_score": 20,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "First-time customer; no delivery history.",
+            "Medium-value order.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 45003.04,
+        "evaluated_at": "2026-11-01T20:28:48.856866+00:00"
+    },
+    {
+        "order_id": "NEW1793564764813",
+        "customer_name": "Rahul Sharma",
+        "order_value": 649,
+        "risk_score": 0,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 5 previous orders.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 45002.58,
+        "evaluated_at": "2026-11-01T20:26:49.827069+00:00"
+    },
+    {
+        "order_id": "NEW1793564376145",
+        "customer_name": "Rahul Sharma",
+        "order_value": 649,
+        "risk_score": 0,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 5 previous orders.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 45026.96,
+        "evaluated_at": "2026-11-01T20:20:21.200292+00:00"
+    },
+    {
+        "order_id": "NEW1793544529910",
+        "customer_name": "Priya Sharma",
+        "order_value": 800,
+        "risk_score": 40,
+        "action": "WHATSAPP_CONFIRMATION",
+        "explanation": "Moderate risk. Confirm customer intent through WhatsApp.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "Customer has 1 previous orders.",
+            "Medium-value order.",
+            "No house or building number found. Address is very short."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 45005.21,
+        "evaluated_at": "2026-11-01T14:49:34.924640+00:00"
+    },
+    {
+        "order_id": "NEW1793544438402",
+        "customer_name": "asdf test",
+        "order_value": 649,
+        "risk_score": 10,
+        "action": "SHIP_AS_IS",
+        "explanation": "Low risk. Process the COD order normally.",
+        "reasons": [
+            "No previous RTO recorded.",
+            "First-time customer; no delivery history.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 45006.65,
+        "evaluated_at": "2026-11-01T14:48:03.416853+00:00"
+    },
+    {
+        "order_id": "NEW1793544347184",
+        "customer_name": "Amit Verma",
+        "order_value": 1499,
+        "risk_score": 60,
+        "action": "PREPAID_NUDGE",
+        "explanation": "Elevated risk. Offer a prepaid payment incentive.",
+        "reasons": [
+            "Customer has 2 previous RTOs.",
+            "Customer has 3 previous orders.",
+            "High-value order increases potential RTO exposure.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 45001.51,
+        "evaluated_at": "2026-11-01T14:46:32.199300+00:00"
+    },
+    {
+        "order_id": "NEW1793544256241",
+        "customer_name": "Rahul Sharma",
+        "order_value": 2300,
+        "risk_score": 70,
+        "action": "PREPAID_NUDGE",
+        "explanation": "Elevated risk. Offer a prepaid payment incentive.",
+        "reasons": [
+            "Customer has 5 previous RTOs.",
+            "First-time customer; no delivery history.",
+            "High-value order increases potential RTO exposure.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 45013.23,
+        "evaluated_at": "2026-11-01T14:45:01.262765+00:00"
+    },
+    {
+        "order_id": "NEW1793544173461",
+        "customer_name": "Rahul Sharma",
+        "order_value": 2300,
+        "risk_score": 100,
+        "action": "HOLD_REVIEW",
+        "explanation": "Very high risk. Hold the order for manual review before deciding whether to cancel.",
+        "reasons": [
+            "Customer has 5 previous RTOs.",
+            "First-time customer; no delivery history.",
+            "High-value order increases potential RTO exposure.",
+            "No house or building number found. Address is very short."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 45021.44,
+        "evaluated_at": "2026-11-01T14:43:38.495679+00:00"
+    },
+    {
+        "order_id": "NEW1793544048604",
+        "customer_name": "Rahul Sharma",
+        "order_value": 649,
+        "risk_score": 50,
+        "action": "WHATSAPP_CONFIRMATION",
+        "explanation": "Moderate risk. Confirm customer intent through WhatsApp.",
+        "reasons": [
+            "Customer has 5 previous RTOs.",
+            "First-time customer; no delivery history.",
+            "Address appears reasonably detailed."
+        ],
+        "ai_status": "FALLBACK",
+        "gemini_time_ms": 30023.1,
+        "evaluated_at": "2026-11-01T14:41:18.645613+00:00"
+    }
+]

@@ -1,0 +1,150 @@
+
+.discount-section {
+  background: #111827;
+  border: 1px solid #293548;
+  border-radius: 14px;
+  padding: 24px;
+  margin: 24px 0;
+  color: #f9fafb;
+}
+
+.discount-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.discount-heading h2 {
+  font-size: 21px;
+  margin: 0 0 8px;
+}
+
+.discount-heading p {
+  color: #9ca3af;
+  margin: 0;
+  font-size: 14px;
+}
+
+.discount-badge {
+  background: #1e3a5f;
+  color: #93c5fd;
+  padding: 7px 11px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.discount-input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 420px;
+}
+
+.discount-input-area label {
+  color: #d1d5db;
+  font-size: 14px;
+}
+
+.discount-input-area input {
+  padding: 12px;
+  background: #0b1220;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  color: white;
+  outline: none;
+}
+
+.discount-input-area input:focus {
+  border-color: #60a5fa;
+}
+
+.discount-input-area button {
+  padding: 12px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.discount-input-area button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.discount-highlight {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #172b45;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.discount-highlight span,
+.discount-highlight small {
+  color: #bfdbfe;
+}
+
+.discount-highlight strong {
+  font-size: 32px;
+  color: #60a5fa;
+}
+
+.discount-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.discount-metrics div {
+  padding: 15px;
+  background: #0b1220;
+  border: 1px solid #293548;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.discount-metrics span {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.discount-metrics strong {
+  font-size: 17px;
+}
+
+.discount-note {
+  color: #9ca3af;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+
+.discount-error {
+  color: #fca5a5;
+  margin-top: 14px;
+}
+
+@media (max-width: 600px) {
+  .discount-section {
+    padding: 16px;
+  }
+
+  .discount-heading {
+    flex-direction: column;
+  }
+
+  .discount-metrics {
+    grid-template-columns: 1fr;
+  }
+}

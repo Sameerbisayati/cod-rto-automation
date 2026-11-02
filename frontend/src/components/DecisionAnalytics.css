@@ -1,0 +1,161 @@
+.decision-analytics {
+  background: #111827;
+  border: 1px solid #263449;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 25px 0;
+  color: #f8fafc;
+}
+
+.analytics-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.analytics-heading h2 {
+  margin: 0 0 7px;
+  font-size: 21px;
+}
+
+.analytics-heading p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.analytics-total {
+  background: #1e293b;
+  color: #cbd5e1;
+  padding: 9px 13px;
+  border-radius: 20px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.analytics-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.analytics-panel {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.analytics-panel h3 {
+  margin: 0 0 24px;
+  font-size: 16px;
+}
+
+.analytics-item {
+  margin-bottom: 22px;
+}
+
+.analytics-item:last-child {
+  margin-bottom: 0;
+}
+
+.analytics-item-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 9px;
+  font-size: 13px;
+}
+
+.analytics-item-heading span {
+  color: #cbd5e1;
+}
+
+.analytics-item-heading strong {
+  color: #f8fafc;
+  white-space: nowrap;
+}
+
+.analytics-track {
+  width: 100%;
+  height: 9px;
+  background: #334155;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.analytics-fill {
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.5s ease;
+}
+
+.action-ship_as_is {
+  background: #22c55e;
+}
+
+.action-whatsapp_confirmation {
+  background: #38bdf8;
+}
+
+.action-prepaid_nudge {
+  background: #a78bfa;
+}
+
+.action-hold_review {
+  background: #f59e0b;
+}
+
+.risk-low {
+  background: #22c55e;
+}
+
+.risk-medium {
+  background: #f59e0b;
+}
+
+.risk-high {
+  background: #ef4444;
+}
+
+.analytics-note {
+  margin: 20px 0 0;
+  padding-top: 15px;
+  border-top: 1px solid #334155;
+  color: #94a3b8;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.analytics-message,
+.analytics-error {
+  color: #cbd5e1;
+  padding: 15px;
+}
+
+.analytics-error {
+  color: #f87171;
+}
+
+@media (max-width: 750px) {
+  .analytics-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .analytics-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .decision-analytics {
+    padding: 16px;
+  }
+
+  .analytics-panel {
+    padding: 15px;
+  }
+}

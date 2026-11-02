@@ -1,0 +1,121 @@
+.ai-monitoring {
+  background: #111827;
+  border: 1px solid #263449;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 25px 0;
+  color: #f8fafc;
+}
+
+.monitoring-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 24px;
+}
+
+.monitoring-header h2 {
+  font-size: 21px;
+  margin: 0 0 7px;
+}
+
+.monitoring-header p {
+  color: #94a3b8;
+  font-size: 13px;
+  margin: 0;
+}
+
+.api-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #1e293b;
+  padding: 9px 13px;
+  border-radius: 20px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+.monitoring-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.monitor-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.monitor-card span {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.monitor-card h3 {
+  font-size: 27px;
+  margin: 13px 0 0;
+}
+
+.success-value {
+  color: #4ade80;
+}
+
+.fallback-value {
+  color: #fbbf24;
+}
+
+.monitoring-footer {
+  border-top: 1px solid #334155;
+  margin-top: 20px;
+  padding-top: 17px;
+  display: flex;
+  justify-content: space-between;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.monitoring-footer strong {
+  color: #e2e8f0;
+}
+
+.monitoring-message,
+.monitoring-error {
+  color: #cbd5e1;
+  padding: 15px;
+}
+
+.monitoring-error {
+  color: #f87171;
+}
+
+@media (max-width: 900px) {
+  .monitoring-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  .ai-monitoring {
+    padding: 16px;
+  }
+
+  .monitoring-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .monitoring-grid {
+    grid-template-columns: 1fr;
+  }
+}
